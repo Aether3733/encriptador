@@ -1,0 +1,139 @@
+header{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #0A3871;
+}
+.logo1{
+    width: 5%;
+    padding-left: 60px;
+}
+body{
+    background-color: #ffdbd1;
+}
+main{
+display: flex;
+    align-items: top;
+}
+.seccion1{
+    margin-left: 15%;
+}
+.text-area{
+    font-size: 20px;
+    background-color: #fff4f3;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    resize: none;
+}
+.botones{
+    margin-left: 3%;
+    display: flex;
+}
+.btn-encrip{
+    width: 45%;
+    font-size: 20px;
+    margin-top: 2em;
+    background-color: #eee;
+    border: 0.5px solid;
+    font-size: 20px;
+    border-radius: 1rem;
+    color: #0A3871;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+.btn-encrip:active{
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+.btn-encrip:hover:not(:disabled){
+    background: #0A3871;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+.btn-encrip:disabled{
+    cursor: auto;
+    color: grey;
+}
+.btn-desencrip{
+    width: 45%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 2em;
+    background-color: #eee;
+    border: 0.5px solid;
+    font-size: 20px;
+    border-radius: 1rem;
+    color: #0A3871;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+.btn-desencrip:active{
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+.btn-desencrip:hover:not(:disabled){
+    background: #0A3871;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+.btn-desencrip:disabled{
+    cursor: auto;
+    color: grey;
+}
+
+.seccion2{
+    margin-left: 20%;
+}
+.resultado{
+    resize: none;
+    font-size: 20px;
+    background-image: url("img/munheco.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #fff4f3;
+    background-size: 60%;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+}
+.copiar{
+    display: flex;
+    width: 21%;
+    font-size: 20px;
+    margin-top: 2em;
+    margin-left: 35%;
+    background-color: #eee;
+    border: 0.5px solid;
+    font-size: 20px;
+    border-radius: 1rem;
+    color: #0A3871;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+.copiar:active{
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+.copiar:hover:not(:disabled){
+    background: #0A3871;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+.copiar:disabled{
+    cursor: auto;
+    color: grey;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.autor{
+    text-align: center;
+    margin: 5%;
+    font-size: 1em;
+    color: #072d5c;
+}
